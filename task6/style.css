@@ -1,0 +1,26 @@
+h1 {
+  text-align: center;
+}
+#trafficLight0,
+#trafficLight1,
+#trafficLight2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+#trafficLight0 {
+  background: black;
+}
+#trafficLight1 {
+  background: black;
+}
+#trafficLight2 {
+  background: black;
+}
+
+section {
+  width: 100px;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: darkgrey;
+}
