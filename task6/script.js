@@ -2,7 +2,10 @@
 const trafficLightEl0 = document.querySelector('#trafficLight0');
 const trafficLightEl1 = document.querySelector('#trafficLight1');
 const trafficLightEl2 = document.querySelector('#trafficLight2');
-const sectionLightEl = document.querySelector('section');
+const sectionLightEl = document.querySelector('.trafficLightAll');
+// const trafficLightDiv = document.querySelectorAll('div')
+
+
 
 sectionLightEl.addEventListener('click', (event) => {
   if (
@@ -35,21 +38,15 @@ function makeRed() {
   trafficLightEl2.style.background = 'red';
 }
 
-
-
-// функция назначает для trafficLight1 желтый цвет для background
+ // функция назначает для trafficLight1 желтый цвет для background
 function makeYellow() {
   trafficLightEl1.style.background = 'yellow';
 }
-
-
 
 // функция назначает для trafficLight зелёный цвет для background
 function makeGreen() {
   trafficLightEl0.style.background = "green";
 }
-
-
 
 // Делаем все чёрным
 function makeBlackAll() {
@@ -57,3 +54,29 @@ function makeBlackAll() {
   trafficLightEl1.style.background = "";
   trafficLightEl2.style.background = "";
 }
+
+
+/*
+// Назначаем элементу с id=trafficLight0 зелёный цвет остальным убираем
+trafficLightEl0.addEventListener('click', (event) => {
+  trafficLightEl0.style.background = "green";
+  trafficLightEl1.style.background = "";
+  trafficLightEl2.style.background = "";
+});
+
+
+
+// Назначаем элементу с id=trafficLight1 желтый цвет остальным убираем
+trafficLightEl1.addEventListener('click', (event) => {
+  trafficLightEl0.style.background = "";
+  trafficLightEl1.style.background = "yellow";
+  trafficLightEl2.style.background = "";
+});
+
+// Назначаем элементу с id=trafficLight2 красный цвет остальным убираем
+trafficLightEl2.addEventListener('click', (event) => {
+  trafficLightEl0.style.background = "";
+  trafficLightEl1.style.background = "";
+  trafficLightEl2.style.background = "red";
+});
+*/
