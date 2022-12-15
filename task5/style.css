@@ -22,7 +22,7 @@ h1 {
 a {
   font-style: italic;
   text-decoration: none;
-  color: blueviolet;
+  color: #8a2be2;
 }
 
 a:hover {
@@ -31,11 +31,33 @@ a:hover {
 
 a,
 p,
-code {
+code,
+form {
   margin: 0 30px;
 }
 
-p {
+p,
+form {
   margin-top: 10px;
 }
-.text-center {text-align: center;}
+
+.text-center {
+  text-align: center;
+}
+
+.textField {
+  border: 1px solid #8a2be2;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.textEnter {
+  border: 1px solid #8a2be2;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #efefef;
+}
+
+.textEnter:hover {
+  background-color: cornflowerblue;
+}

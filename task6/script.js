@@ -11,8 +11,8 @@ sectionLightEl.addEventListener('click', (event) => {
   if (
     trafficLightEl2.style.background === 'red' ||
     trafficLightEl2.style.background === '' &&
-      trafficLightEl1.style.background === '' &&
-      trafficLightEl0.style.background === ''
+    trafficLightEl1.style.background === '' &&
+    trafficLightEl0.style.background === ''
   ) {
     makeBlackAll();
     makeGreen();
@@ -38,7 +38,7 @@ function makeRed() {
   trafficLightEl2.style.background = 'red';
 }
 
- // функция назначает для trafficLight1 желтый цвет для background
+// функция назначает для trafficLight1 желтый цвет для background
 function makeYellow() {
   trafficLightEl1.style.background = 'yellow';
 }

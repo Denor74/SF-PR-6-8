@@ -8,7 +8,7 @@ textInput.addEventListener('keyup', (event) => {
     let textDuplicateField = document.querySelector('#duplicateField');
     // в текстовое содержимое p с id=duplicateField с помощью свойства textContent
     // выводим содержимое полученное при событии keydown произошедшее в элементе input (присваиваем значение textContent для textDuplicateField)
-    textDuplicateField.textContent = event.target.value; 
+    textDuplicateField.textContent = event.target.value;
 });
 
 // Определяем функцию с событием klick по input 
@@ -23,5 +23,5 @@ document.querySelector('button').addEventListener('click', (event) => {
     document.querySelector('input').value = '';
     // обнуляем значение в содержимом тэга HTML с id="duplicateField"
     document.querySelector('#duplicateField').innerHTML = '';
-    
+
 });
